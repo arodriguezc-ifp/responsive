@@ -1,0 +1,51 @@
+   html{
+    font-size: 32px;
+   }
+   
+   
+   
+   
+   h1{  text-align: center; }
+
+@media screen and (max-width:480px){
+
+    /* aqui va el disseny per smartphone */
+
+    body{
+        background-color: red;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:1279px){
+
+    /* aqui va el disseny per tablet */
+
+    body{
+        background-color: yellow;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+}
+
+
+@media screen and (min-width:1280px){
+
+    /* aqui va el disseny per ordinadorb */
+
+    body{
+        background-color: orange;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    
+}
